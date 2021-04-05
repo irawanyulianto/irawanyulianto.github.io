@@ -9048,6 +9048,7 @@ a.text-dark:hover, a.text-dark:focus {
 	padding: 30px;
 	color: #fff;
 	border: 3px solid;
+	min-height: 225px;
 }
 .card-light-title {
 	border-bottom: 2px dotted;
