@@ -11,7 +11,12 @@
 html, body {
 	font-family: 'Roboto', sans-serif;	
 }
-
+.bg-theme {
+	background-color: #038931;
+}
+.color-theme {
+	color: #038931;
+}
 .bg-gradient {
 	background-color: #038931;
 	background-image: linear-gradient(to right,#038931,#038931);
