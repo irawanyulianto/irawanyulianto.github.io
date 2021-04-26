@@ -9046,6 +9046,9 @@ img {
 .container-medium {
 	max-width: 700px;
 }
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
 #header {
 	position: fixed;
 	left: 0;
