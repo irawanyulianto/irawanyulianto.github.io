@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Irawan Yulianto — Web Developer &amp; Digital Content Producer</title>
+  <meta name="description" content="Irawan Yulianto — Web Developer dengan lebih dari 12 tahun pengalaman. Fokus ke headless, frontend modern, dan otomatisasi." />
+  <meta name="theme-color" content="#0b1020" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="url(#lg)"/>
+          <path d="M10 22 V10h4l6 12z" fill="#7c3aed" opacity=".85"/>
+          <circle cx="24" cy="10" r="3" fill="#a78bfa"/>
+          <defs>
+            <linearGradient id="lg" x1="0" y1="0" x2="32" y2="32">
+              <stop offset="0" stop-color="#1e1b4b"/>
+              <stop offset="1" stop-color="#312e81"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="brand-name">irawan</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <a class="btn btn-outline btn-sm" href="#contact">Hubungi</a>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <span style="--i:1"></span><span style="--i:2"></span><span style="--i:3"></span>
+      <span style="--i:4"></span><span style="--i:5"></span><span style="--i:6"></span>
+      <span style="--i:7"></span><span style="--i:8"></span><span style="--i:9"></span>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-avatar">
+        <svg class="avatar" viewBox="0 0 80 80" aria-hidden="true">
+          <defs>
+            <linearGradient id="av" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7c3aed"/>
+              <stop offset="1" stop-color="#0e7490"/>
+            </linearGradient>
+          </defs>
+          <circle cx="40" cy="40" r="40" fill="url(#av)"/>
+          <!-- silhouette shape -->
+          <path d="M24 52c0-4 2-7 5-8 2-1 4 0 5 2 1 2 0 5-2 7-2 2-7 1-8 0z" fill="#fff"/>
+          <circle cx="40" cy="36" r="6" fill="#1e1b4b"/>
+          <circle cx="34" cy="44" r="2.5" fill="#1e1b4b"/>
+          <circle cx="46" cy="44" r="2.5" fill="#1e1b4b"/>
+          <path d="M36 52h8" stroke="#1e1b4b" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="hero-text">
+        <p class="hero-eyebrow">Web Developer &amp; Digital Content Producer</p>
+        <h1>Irawan Yulianto</h1>
+        <p class="hero-tagline">
+          Lebih dari 12 tahun di dunia web.
+          Awalnya WordPress &amp; Drupal, kini fokus ke <strong>headless</strong>, <strong>frontend modern</strong>, dan <strong>otomatisasi</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Lihat proyek</a>
+          <a class="btn btn-outline" href="#contact">Saya ingin bergabung</a>
+        </div>
+        <div class="hero-links">
+          <a class="hero-link" href="https://irawan.io" target="_blank" rel="noopener" aria-label="Situs klien irawan.io">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="17" x2="12" y2="12"/><circle cx="12" cy="5" r="1"/></svg>
+            irawan.io
+          </a>
+          <a class="hero-link" href="https://github.com/irawanyulianto" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1.01.07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.82.09-.65.35-1.09.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.08.39-1.96 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5.01 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.72 1.03 1.6 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+            GitHub
+          </a>
+          <a class="hero-link" href="https://instagram.com/irawanyulianto" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.15 2.28.24.54.09.96.23 1.36.42.8.33 1.33.77 1.81 1.54.21.38.39.73.47 1.05.33.03.66.04 1.06-.12.41-.16.77-.42 1.03-.8.27-.39.43-.82.46-1.27.03-.45-.09-.86-.38-1.18-.28-.33-.66-.54-1.09-.61h-.56c-.57-.02-1.09.04-1.56.2-.44.15-.82.37-1.12.67-.23.24-.4.5-.52.79-.17.4-.26.8-.29 1.19-.05.53-.08 1.06-.08 1.59 0 .53.03 1.06.08 1.59.03.39.16.8.36 1.19.21.39.53.69.94.89.42.2.9-.11 1.26-.51.36-.41.56-.9.58-1.42.03-.52-.16-.97-.5-1.31-.33-.34-.78-.49-1.21-.45h-.45c-.48-.01-.92.14-1.3.48-.36.33-.64.76-.79 1.23-.15.47-.22 1.02-.22 1.54 0 .52.07 1.05.22 1.54.15.47.35.8.6.11.25.3.53.64.83.97.31.35.62.71.92 1.07.18.21.36.41.53.61.31.4.56.85.72 1.35.41 1.2.38 2.23-.27 3.05-.69.89-1.65 1.71-2.83 2.13-.68.24-1.32.33-1.92.4-.7.07-1.3.05-1.88-.11zm0 9.92c-3.15 0-3.55.01-4.83.07-1.17.05-1.82.16-2.32.26-.56.1-1 .24-1.4.47-.6.33-1 .8-1.32 1.41-.21.39-.39.76-.5 1.09-.33.02-.65.05-1.05-.1-.41-.17-.75-.45-.98-.8-.22-.36-.34-.74-.37-1.08-.03-.46.1-.88.4-.12.31-.17.59-.43.81-.75.21-.32.35-.68.41-1.07.02-.12.03-.23.03-.34v-.6c.13-.45.36-.99.69-1.51.34-.54.83-1.01 1.48-1.56.67-.57 1.51-1.15 2.65-1.66.5-.21 1-.27 1.45-.14.41.13.77.37 1.03.72.26.36.4 1.06.4 1.44v.64c0 .53.09 1.04.25 1.53.15.46.38.86.68 1.19.29.32.67.57 1.12.76.44.18.94.28 1.46.28h.48c.54.01 1.03-.04 1.48-.16.44-.12.81-.3.96-.55.15-.25.21-.55.16-.91z"/></svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-dots" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Tentang Saya</p>
+        <h2>Fokus setelah 12+ tahun di web</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            Lama berkecimpung di <strong>WordPress</strong> dan <strong>Drupal</strong> sebagai developer frontend, admin, dan webmaster.
+            Kini saya merevolusi—berfokus ke <strong>arsitektur headless</strong>, <strong>frontend modern</strong> dengan React/Vite/Tailwind, dan
+            <strong>otomatisasi</strong> berbasis Node.js.
+          </p>
+          <p>
+            Saya bekerja sebagai <strong>Digital Content Producer</strong> di sebuah universitas di Australia, di samping pengalaman
+            sebelumnya sebagai admin &amp; webmaster di sektor seafood industry council dan organisasi kesehatan.
+          </p>
+          <ul class="about-cards">
+            <li>
+              <span class="about-card-emoji" aria-hidden="true">⚡</span>
+              <div><strong>Pragmatis</strong><span>Memilih solusi yang tepat, bukan yang terbaru</span></div>
+            </li>
+            <li>
+              <span class="about-card-emoji" aria-hidden="true">🔗</span>
+              <div><strong>Headless</strong><span>API-first, lepas dari CMS tradisional</span></div>
+            </li>
+            <li>
+              <span class="about-card-emoji" aria-hidden="true">🤖</span>
+              <div><strong>Automasi</strong><span>Node.js, bot Telegram, dan AI integration</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="about-fig">
+          <div class="stat">
+            <span class="stat-num">12+</span>
+            <span class="stat-label">tahun di dunia web</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">0</span>
+            <span class="stat-label">WP/Drupal proyek klien (sekarang headless)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Keahlian</p>
+        <h2>Stack yang saya pegang setiap hari</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">SCSS</span>
+            <span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Vite</span>
+            <span class="tag">Tailwind CSS</span><span class="tag">Figma</span><span class="tag">Next.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend &amp; Database</h3>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">REST API</span>
+            <span class="tag">node:sqlite</span><span class="tag">Python</span><span class="tag">PHP</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>CMS &amp; Headless</h3>
+          <div class="skill-tags">
+            <span class="tag">WordPress</span><span class="tag">Drupal</span><span class="tag">Headless CMS</span>
+            <span class="tag">Content Modeling</span><span class="tag">GraphQL</span><span class="tag">Sanity</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; DevOps</h3>
+          <div class="skill-tags">
+            <span class="tag">Git &amp; GitHub</span><span class="tag">Nginx</span><span class="tag">Linux</span>
+            <span class="tag">systemd</span><span class="tag">Telegram Bot</span><span class="tag">ngrok</span>
+            <span class="tag">AI &amp; Automation</span><span class="tag">GitHub Pages</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Jejak</p>
+        <h2>Pengalaman di dunia web &amp; konten</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Digital Content Producer</h3>
+            <p class="timeline-org">Universitas — Australia</p>
+            <p>
+              Memegang posisi saat ini. Mengelola konten digital, multimedia, dan pengalaman pengguna di lingkungan akademik
+              dengan fokus pada konsistensi, aksesibilitas, dan eksekusi.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Admin &amp; Webmaster</h3>
+            <p class="timeline-org">Seafood Industry Council</p>
+            <p>
+              Mengelola situs perusahaan, konten media, dan kolaborasi dengan tim bisnis.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Admin &amp; Webmaster</h3>
+            <p class="timeline-org">Organisasi Kesehatan</p>
+            <p>
+              Mengelola situs kesehatan, keamanan informasi, dan pelaporan digital.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Web Developer &amp; Content Producer</h3>
+            <p class="timeline-org">Berkepanjangan (12+ tahun)</p>
+            <p>
+              Berbagai proyek dari developer frontend WordPress/Drupal, admin webmaster, hingga arsitektur headless.
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="timeline-note">Hanya mencakup peran yang dapat dipastikan. Detail terbaru bisa saya sesuaikan.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Proyek</p>
+        <h2>Beberapa proyek yang saya kerjakan</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-img" style="background:radial-gradient(circle at 20% 30%, #1e1b4b, #0e172a)">
+            <svg viewBox="0 0 400 220" fill="none" aria-hidden="true">
+              <rect width="400" height="220" rx="14" fill="#12103a"/>
+              <path d="M40 120 L100 70 L160 95 L220 40 L280 95 L340 60 L370 110 L350 160 L260 170 L180 150 L90 160 Z" fill="#2e2a63" opacity=".7"/>
+              <circle cx="120" cy="90" r="16" fill="#7c3aed"/>
+              <circle cx="200" cy="60" r="12" fill="#a78bfa"/>
+              <circle cx="290" cy="100" r="10" fill="#7dd3fc"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <h3>Kantor AI</h3>
+            <p>Otomatisasi kantor berbasis Node.js, Express, SQLite, dan bot Telegram. Dashboard berbasis Tailwind.</p>
+            <span class="project-tech">Node.js · Express · SQLite · Telegram Bot · Tailwind</span>
+            <a class="project-link" href="https://github.com/irawanyulianto" target="_blank" rel="noopener">Lihat kode <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-img" style="background:radial-gradient(circle at 80% 20%, #1e1b4b, #0e172a)">
+            <svg viewBox="0 0 400 220" fill="none" aria-hidden="true">
+              <rect width="400" height="220" rx="14" fill="#12103a"/>
+              <rect x="40" y="90" width="320" height="90" rx="10" fill="#23205a"/>
+              <rect x="70" y="110" width="80" height="10" rx="5" fill="#7c3aed"/>
+              <rect x="160" y="110" width="60" height="10" rx="5" fill="#7c3aed"/>
+              <rect x="250" y="110" width="110" height="10" rx="5" fill="#7c3aed"/>
+              <rect x="70" y="130" width="120" height="6" rx="3" fill="#7dd3fc" opacity=".6"/>
+              <rect x="210" y="130" width="100" height="6" rx="3" fill="#a78bfa" opacity=".6"/>
+              <circle cx="90" cy="105" r="5" fill="#0e7490"/>
+              <circle cx="150" cy="105" r="5" fill="#0e7490"/>
+              <circle cx="210" cy="105" r="5" fill="#0e7490"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <h3>Headless Website</h3>
+            <p>Situs statis berbasis headless CMS dengan Vite + React + Tailwind, terhubung ke API.</p>
+            <span class="project-tech">Vite · React · Tailwind · Headless CMS · REST API</span>
+            <a class="project-link" href="https://github.com/irawanyulianto" target="_blank" rel="noopener">Lihat kode <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-img" style="background:radial-gradient(circle at 50% 40%, #1e1b4b, #0e172a)">
+            <svg viewBox="0 0 400 220" fill="none" aria-hidden="true">
+              <rect width="400" height="220" rx="14" fill="#12103a"/>
+              <rect x="40" y="50" width="320" height="120" rx="10" fill="#23205a"/>
+              <rect x="80" y="80" width="120" height="14" rx="7" fill="#7c3aed"/>
+              <rect x="200" y="80" width="120" height="14" rx="7" fill="#10b981"/>
+              <rect x="80" y="110" width="140" height="8" rx="4" fill="#7dd3fc" opacity=".5"/>
+              <rect x="80" y="124" width="90" height="8" rx="4" fill="#7dd3fc" opacity=".5"/>
+              <rect x="180" y="110" width="100" height="8" rx="4" fill="#a78bfa" opacity=".5"/>
+              <rect x="200" y="124" width="110" height="8" rx="4" fill="#7dd3fc" opacity=".5"/>
+              <circle cx="120" cy="70" r="6" fill="#0e7490"/>
+              <circle cx="260" cy="70" r="6" fill="#0e7490"/>
+            </svg>
+          </div>
+          <div class="project-body">
+            <h3>Heart Pokemon</h3>
+            <p>Proyek frontend sederhana yang saya serverkan melalui GitHub Pages.</p>
+            <span class="project-tech">HTML · CSS · JavaScript · GitHub Pages</span>
+            <a class="project-link" href="https://github.com/irawanyulianto/heart-pokemon" target="_blank" rel="noopener">Lihat kode <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="projects-note">Data ini sebagai <strong>contoh</strong>. Ganti dengan proyek asli kalian lewat file <code>config.js</code>.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Kontak</p>
+        <h2>Mari berbicara</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Ada project atau kerja sama? Saya terbuka untuk berdiskusi.</p>
+          <a class="contact-link" href="mailto:me@irawan.io">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8h20"/><path d="M4 16l5-5 4 4 6-6"/></svg>
+            me@irawan.io
+          </a>
+          <div class="contact-links">
+            <a class="contact-link" href="https://github.com/irawanyulianto" target="_blank" rel="noopener">GitHub</a>
+            <a class="contact-link" href="https://instagram.com/irawanyulianto" target="_blank" rel="noopener">Instagram</a>
+            <a class="contact-link" href="https://irawan.io" target="_blank" rel="noopener">irawan.io</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="name">Nama</label>
+          <input id="name" name="name" type="text" placeholder="Nama kamu" required />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="alamat@example.com" required />
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="5" placeholder="Ceritakan proyek atau ide Anda…" required></textarea>
+          <button class="btn btn-primary" type="submit">Kirim pesan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p id="footerYear"></p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
