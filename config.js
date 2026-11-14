@@ -82,7 +82,7 @@ const PORTFOLIO = {
   ],
 
   contact: {
-    email: 'me@irawan.io',
+    email: 'irawanyulianto77@gmail.com',
     github: 'https://github.com/irawanyulianto',
     instagram: 'https://instagram.com/irawanyulianto',
     web: 'https://irawan.io'
