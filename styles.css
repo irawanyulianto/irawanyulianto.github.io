@@ -271,15 +271,6 @@ ul { list-style: none; }
 .contact-links .contact-link { margin-top: 0; border-color: var(--border); color: var(--text); background: var(--surface-2); }
 .contact-links .contact-link:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
 
-.contact-form { display: flex; flex-direction: column; gap: 14px; }
-.contact-form label { font-size: 13px; font-weight: 700; color: var(--text); }
-.contact-form input, .contact-form textarea {
-  font-family: var(--font); font-size: 14px; padding: 12px 14px; border: 1.5px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--text);
-  transition: border-color .2s;
-}
-.contact-form input:focus, .contact-form textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--ring); }
-.contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--text-light); }
-
 /* ---------- FOOTER ---------- */
 .footer { border-top: 1px solid var(--border); padding: 30px 0; text-align: center; font-size: 13px; color: var(--text-light); }
 .footer p { margin: 0; }

@@ -105,18 +105,6 @@
   /* ---------- Contact ---------- */
   const renderContact = () => {
     const c = C.contact || {};
-    const form = $('#contactForm');
-    if (form) {
-      form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const name = form.querySelector('#name').value.trim();
-        const email = form.querySelector('#email').value.trim();
-        const msg = form.querySelector('#message').value.trim();
-        if (!name || !email || !msg) return;
-        alert(`Terima kasih, ${name}!\n\nEmail: ${email}\nPesan:\n${msg}\n\n(Pengiriman asli bisa kamu koneksikan ke email/Formspree nanti.)`);
-        form.reset();
-      });
-    }
     const links = document.querySelector('.contact-links');
     if (links) {
       const wa = (c.whatsapp || '').replace(/[^0-9]/g, '');
@@ -126,11 +114,6 @@
         <a class="contact-link" href="${c.instagram}" target="_blank" rel="noopener">${icon('bi-instagram')} Instagram</a>
         <span class="contact-link">${icon('bi-geo-alt')} ${c.location || ''}</span>
       `;
-    }
-    const mail = document.querySelector('a.contact-link[href^="mailto:"]');
-    if (mail && c.email) {
-      mail.href = `mailto:${c.email}`;
-      mail.innerHTML = `${icon('bi-envelope-at')} ${c.email}`;
     }
   };
 

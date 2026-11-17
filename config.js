@@ -72,7 +72,6 @@ const PORTFOLIO = {
   ],
 
   contact: {
-    email: 'irawanyulianto77@gmail.com',
     whatsapp: '6287736224126',
     location: 'Sukoharjo, Jawa Tengah',
     github: 'https://github.com/irawanyulianto',
